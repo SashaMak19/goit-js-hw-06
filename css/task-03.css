@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(201, 196, 196);
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+.gallery__img {
+  display: block;
+  width: 410px;
+  height: 250px;
+  border-radius: 10px;
+}
