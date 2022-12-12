@@ -18,7 +18,7 @@ function onSubmitSendingForm(event) {
       email: email.value,
       password: password.value,
     });
-  }
 
-  event.currentTarget.reset();
+    event.currentTarget.reset();
+  }
 }

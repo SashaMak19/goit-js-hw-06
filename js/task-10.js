@@ -5,7 +5,7 @@ const refs = {
   boxesDiv: document.querySelector("#boxes"),
 };
 
-refs.createBtn.addEventListener("click", createBoxes);
+refs.createBtn.addEventListener("click", () => createBoxes(refs.input.value));
 refs.destroyBtn.addEventListener("click", destroyBoxes);
 
 let collectionBoxes = [""];

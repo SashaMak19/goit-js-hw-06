@@ -10,8 +10,9 @@ function checkValidInput(event) {
     input.classList.remove("invalid");
   } else {
     input.classList.add("invalid");
+    input.classList.remove("valid");
   }
 
-  //   console.log(input.value.length);
-  //   console.log(Number.parseInt(input.dataset.length));
+  // console.log(input.value.length);
+  // console.log(Number.parseInt(input.dataset.length));
 }
